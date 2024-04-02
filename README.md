@@ -1,4 +1,4 @@
-# Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee
+# EXP 7: Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee
 
 ## AIM:
 To write a program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
@@ -42,6 +42,7 @@ data.info()
 data.isnull().sum()
 ```
 ## Output :
+![image](https://github.com/lathishlathish/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120359170/02bf209d-06ba-46ec-825c-2c158962baca)
 
 
 ```python
@@ -51,6 +52,7 @@ data['Position']=le.fit_transform(data['Position'])
 data.head()
 ```
 ## Output :
+![image](https://github.com/lathishlathish/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120359170/dd9e85f5-22c5-470a-b1fc-09ff6ed70639)
 
 
 ```python
@@ -72,7 +74,7 @@ mse
 ```
 
 ## Output :
-![image](https://github.com/SANTHAN-2006/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/80164014/1562adc4-2840-49e4-bee7-a400fec10b4b)
+![image](https://github.com/lathishlathish/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120359170/82bd4f46-6d51-4ae3-a2ac-6212bd26bf1f)
 
 
 ```python
@@ -80,14 +82,14 @@ r2=metrics.r2_score(y_test,y_pred)
 r2
 ```
 ## Output :
-![image](https://github.com/SANTHAN-2006/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/80164014/732622e1-efeb-4253-bbec-a50d6faa0ff2)
+![image](https://github.com/lathishlathish/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120359170/59a00a56-8298-4a14-8799-42ca2ba74cd0)
 
 
 ```python
 dt.predict([[5,6]])
 ```
 ## Output :
-![image](https://github.com/SANTHAN-2006/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/80164014/483c96c8-17a4-4e12-b96f-d0807998bec4)
+![image](https://github.com/lathishlathish/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/120359170/41b8f054-0aa1-442e-9cf0-27327efc7fe1)
 
 ## Result:
 Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
